@@ -26,7 +26,7 @@ jobs:
         
     - name: Train model if not exists
       run: |
-        if [ ! -f "model.pth" ]; then
+        if [ ! -f "mnist_model.pth" ]; then
           echo "Warning: model.pth not found. Please ensure you commit your trained model."
           exit 1
         fi
