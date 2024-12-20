@@ -104,21 +104,21 @@ class Net(nn.Module):
             nn.Conv2d(in_channels=1, out_channels=16, kernel_size=(3,3), padding=0, stride=1),
             nn.ReLU(),
             nn.BatchNorm2d(16),
-            nn.Dropout(0.1)
+            nn.Dropout(0.15)
         )
         # Convolutional Block 1
         self.convblock2 = nn.Sequential(
             nn.Conv2d(in_channels=16, out_channels=24, kernel_size=(3,3), padding=0, stride=1),
             nn.ReLU(),
             nn.BatchNorm2d(24),
-            nn.Dropout(0.1)
+            nn.Dropout(0.15)
         )
         
         self.convblock3 = nn.Sequential(
             nn.Conv2d(in_channels=24, out_channels=32, kernel_size=(3,3), padding=0, stride=1),
             nn.ReLU(),
             nn.BatchNorm2d(32),
-            nn.Dropout(0.1)
+            nn.Dropout(0.15)
         )
         self.pool1 = nn.MaxPool2d(2,2)
         # Transition Block 1

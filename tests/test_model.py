@@ -37,16 +37,7 @@ def test_optimizer_config():
     # Create scheduler for step decay every 5 epochs
     scheduler = StepLR(optimizer, step_size=5, gamma=0.1)
 
-    # Save optimizer and scheduler state
-    torch.save(
-        {
-            "model_state_dict": model.state_dict(),
-            "optimizer_state_dict": optimizer.state_dict(),
-            "scheduler_state_dict": scheduler.state_dict(),
-            "epoch": 0,
-        },
-        "mnist_model.pth",
-    )
+    
 
 
 def test_model_optimizer():
