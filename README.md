@@ -15,7 +15,7 @@ The test status badge above shows whether the model currently passes these requi
 
 ## Model Architecture Summary
 
-![MNIST Model Summary](Model_Summary.png)
+![MNIST Model Summary](Model_summary.png)
 
 ### Model Size Summary
 | Metric | Value |
