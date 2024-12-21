@@ -17,16 +17,6 @@ The test status badge above shows whether the model currently passes these requi
 
 ![MNIST Model Summary](Model_summary.png)
 
-### Model Size Summary
-| Metric | Value |
-|--------|-------|
-| Total params | 22,778 |
-| Trainable params | 22,778 |
-| Non-trainable params | 0 |
-| Input size (MB) | 0.00 |
-| Forward/backward pass size (MB) | 1.34 |
-| Params size (MB) | 0.09 |
-| Estimated Total Size (MB) | 1.43 |
 
 ### Test Logs
 ![MNIST Test Logs](MNIST_test_log.png)
